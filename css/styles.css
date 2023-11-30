@@ -31,12 +31,12 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 24px 76px 24px 156px;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .menu {
-  padding: 24px 0 24px;
+  padding: 24px 0;
 }
 
 .link {
@@ -156,6 +156,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 
 .strategy {
@@ -214,6 +215,7 @@ img {
   margin: 96px 259px 72px 415px;
 }
 .characters {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   margin: 0 12px;
   display: inline-flex;
@@ -227,7 +229,6 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .characters-lists {
@@ -321,7 +322,6 @@ img {
 
 .features {
   display: flex;
-  padding: 120px 156px;
   gap: 24px;
 }
 
@@ -331,7 +331,7 @@ img {
 
 .features-elements {
   padding: 0 24px 0 0;
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .features-highlight {
@@ -339,14 +339,13 @@ img {
 }
 
 .computers {
-  margin: 72px 156px 120px 156px;
   display: flex;
   gap: 24px;
 }
 
 .computers-elements {
   padding: 0 24px 0 0;
-  flex-basis: calc((100% - 3 * 16px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .computers-section {
