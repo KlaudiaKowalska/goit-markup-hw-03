@@ -35,6 +35,10 @@ img {
   margin-right: 76px;
 }
 
+.menu {
+  padding: 24px 0;
+}
+
 .link {
   text-decoration: none;
 }
@@ -99,6 +103,7 @@ img {
 
 .adress {
   font-size: normal;
+  gap: 40px;
 }
 
 .adress-class {
@@ -106,7 +111,7 @@ img {
   gap: 40px;
 }
 
-.adress-menu {
+.address-menu {
   gap: 40px;
 }
 
@@ -133,7 +138,7 @@ img {
   height: 600px;
   flex-shrink: 0;
   text-align: center;
-  padding: 188px 0;
+  padding: 188px 0 188px;
 }
 
 .highlights-a {
@@ -282,6 +287,7 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   align-items: center;
+  gap: 40px;
 }
 
 .navigation-menu {
