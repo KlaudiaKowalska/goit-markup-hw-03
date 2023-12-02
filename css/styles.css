@@ -38,11 +38,13 @@ img {
   text-transform: uppercase;
   margin-right: 76px;
   padding: 24px 0;
+  display: inline-block;
 }
 
 .link {
   text-decoration: none;
   padding: 24px 0;
+  display: inline-block;
 }
 
 .button-index {
