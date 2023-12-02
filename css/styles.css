@@ -27,10 +27,6 @@ img {
   display: block;
 }
 
-.navigation-menu:first-child {
-  padding: 24px 0;
-}
-
 .logo {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
@@ -101,7 +97,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  padding: 24px 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .index:hover,
@@ -250,7 +247,7 @@ img {
 }
 
 .footer-link {
-  display: inline-block !important;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .porfolio-list {
