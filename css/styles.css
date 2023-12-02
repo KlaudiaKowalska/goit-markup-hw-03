@@ -239,6 +239,10 @@ img {
   gap: 24px;
 }
 
+.inline {
+  display: inline-block;
+}
+
 .footer-index {
   background-color: var(--navy-blue);
   padding: 100px 0;
