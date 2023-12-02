@@ -244,6 +244,10 @@ img {
   padding: 100px 0;
 }
 
+.footer-link {
+  margin-bottom: 16px;
+  display: inline-block;
+}
 .footer-p {
   line-height: 1.5;
   color: var(--cloud);
