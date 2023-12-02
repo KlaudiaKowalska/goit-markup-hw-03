@@ -253,6 +253,10 @@ img {
   padding: 0 76px 24px 156px;
 }
 
+.a {
+  display: inline-block;
+}
+
 .porfolio-list {
   font-weight: 500;
   font-size: 20px;
