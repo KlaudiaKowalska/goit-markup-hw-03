@@ -259,6 +259,18 @@ img {
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
+  text-decoration: none;
+  padding: 24px 0;
+  display: inline-block;
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
 }
 .porfolio-list {
   font-weight: 500;
