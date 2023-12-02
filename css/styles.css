@@ -42,6 +42,7 @@ img {
 
 .link {
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .button-index {
@@ -97,13 +98,16 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .index:hover,
 .index:focus {
   color: var(--ocean);
+}
+
+.menu {
+  padding: 24px 0;
 }
 
 .adress {
