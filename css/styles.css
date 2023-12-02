@@ -44,6 +44,7 @@ img {
 .link {
   text-decoration: none;
   padding: 24px 0;
+  margin-bottom: 16px;
   display: inline-block;
 }
 
@@ -239,10 +240,6 @@ img {
   gap: 24px;
 }
 
-.inline {
-  display: inline-block;
-}
-
 .footer-index {
   background-color: var(--navy-blue);
   padding: 100px 0;
@@ -257,7 +254,6 @@ img {
 }
 
 .footer-link {
-  display: inline-block;
   margin-bottom: 16px;
 }
 .porfolio-list {
