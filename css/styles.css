@@ -242,19 +242,15 @@ img {
 }
 
 .footer-link {
-  margin-bottom: 16px;
   display: inline-block;
 }
+
 .footer-p {
   line-height: 1.5;
   color: var(--cloud);
   letter-spacing: 0.02em;
   width: 264px;
   padding: 0 76px 24px 156px;
-}
-
-.a {
-  display: inline-block;
 }
 
 .porfolio-list {
@@ -402,4 +398,8 @@ img {
 .name-highlight {
   text-align: center;
   margin-bottom: 8px;
+}
+
+.img {
+  display: block;
 }
