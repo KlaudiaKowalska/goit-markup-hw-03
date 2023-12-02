@@ -238,9 +238,7 @@ img {
 .footer-index {
   background-color: var(--navy-blue);
   padding: 100px 0;
-
-  flex-direction: column;
-  justify-content: center;
+  display: inline-block;
 }
 
 .footer-p {
@@ -249,6 +247,7 @@ img {
   letter-spacing: 0.02em;
   width: 264px;
   padding: 0 76px 24px 156px;
+  display: inline-block;
 }
 
 .footer-link {
@@ -288,13 +287,12 @@ img {
   flex-direction: row;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
   list-style: none;
 }
 
 .navigation-menu {
   gap: 40px;
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 .first {
   width: 1440px;
