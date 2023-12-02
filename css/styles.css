@@ -348,7 +348,6 @@ img {
 .computers {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 48px) / 3);
 }
 
 .computers-elements {
@@ -358,7 +357,6 @@ img {
 
 .computers-section {
   padding-bottom: 120px;
-  flex-basis: calc((100% - 48px) / 3);
 }
 
 .computers-highlight {
