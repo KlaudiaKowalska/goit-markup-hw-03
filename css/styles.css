@@ -10,6 +10,11 @@
   --light: #e7e9fc;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -325,7 +330,6 @@ img {
 .features {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features-section {
