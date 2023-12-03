@@ -237,12 +237,12 @@ img {
 
 .footer-index {
   background-color: var(--navy-blue);
-  padding: 100px 0;
-  width: 1440px;
   height: 312px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-shrink: 0;
+  padding-right: 800px;
 }
 
 .footer-link {
