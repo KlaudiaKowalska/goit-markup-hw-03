@@ -41,6 +41,7 @@ img {
 
 .link {
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .button-index {
@@ -237,12 +238,7 @@ img {
 
 .footer-index {
   background-color: var(--navy-blue);
-  height: 312px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  padding-right: 800px;
+  padding: 100px 0;
 }
 
 .footer-link {
@@ -250,14 +246,11 @@ img {
   display: inline-block;
 }
 .footer-p {
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
-  width: 264px;
+  line-height: 1.5;
   color: var(--cloud);
+  letter-spacing: 0.02em;
+  width: 264px;
+  padding: 0 76px 24px 156px;
 }
 
 .a {
@@ -283,7 +276,7 @@ img {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1158px;
+  width: 1158px;
   display: flex;
 }
 
