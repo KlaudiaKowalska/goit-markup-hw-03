@@ -41,7 +41,6 @@ img {
 
 .link {
   text-decoration: none;
-  padding: 24px 0;
 }
 
 .button-index {
@@ -241,7 +240,7 @@ img {
   padding: 100px 0;
   width: 1440px;
   height: 312px;
-  flex-shrink: 0;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
