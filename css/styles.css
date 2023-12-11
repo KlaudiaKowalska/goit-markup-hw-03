@@ -346,6 +346,15 @@ img {
   padding: 120px 0;
 }
 
+.features-paragraph {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  width: 264px;
+}
+
 .features-elements {
   padding: 0 24px 0 0;
   width: calc((100% - 72px) / 4);
